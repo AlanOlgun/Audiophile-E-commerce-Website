@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.Navbar{
+    width: 100%;
+    position: relative;
+    /* height: 96px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #191919;
+    overflow: hidden;
+    
+    
+}
+.Logo-Link{
+    display: flex;
+    justify-content: start;
+}
+.Logo{
+    margin-right: 200px;
+    
+}
+
+.Wrapper{
+    max-width: 1075px;
+    width: 100%;
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.Hamburger{
+    display: none;
+}
+.PageLink{
+    display: flex;
+    gap: 35px;
+    
+}
+
+.PageLink a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.PageLink a:hover{
+color: #D87D4A;
+}
+
+.Icon{
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .Hamburger{
+        display: block;
+        margin-top: 3px;
+        cursor: pointer;
+    }
+    .Logo-Link{
+    flex-direction: column;
+    margin-left: 32px;
+       flex: 4;
+     
+    }
+
+    .PageLink{
+        display: none;
+      
+    }
+    .PageLink.Active{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    .Wrapper{
+        position: relative;
+        width: 90%;
+        justify-content: space-between;
+    }
+     .Icon{
+         position: absolute;
+         right: 0;  
+     }
+ 
+
+}
+
+@media screen and (max-width: 768px){
+   
+    .Logo-Link{
+        align-items: center;
+        margin-left: 0;
+    }
+    .Logo-Link .Logo{
+        margin-right: 30px;
+    }
+    .Logo-Link .PageLink{
+        text-align: center;
+        margin-right: 30px;
+    }
+}

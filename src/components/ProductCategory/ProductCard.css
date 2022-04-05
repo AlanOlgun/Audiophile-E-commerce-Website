@@ -1,0 +1,125 @@
+.ProductPageCard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.ProductPageCards{
+    max-width: 1100px;
+    display: flex;
+    padding-bottom: 160px;
+ 
+}
+
+.Card-Left{
+    flex: 1;
+    width: 100%;
+}
+.Card-Right{
+    padding: 110px 0;
+    flex: 1;
+}
+
+.ProductPageCards .Card-Left img{
+   width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.Right-Content{
+    margin-left: 125px;
+}
+.Right-Content h5{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #D87D4A;
+    padding-bottom: 16px;
+}
+
+.Right-Content h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 32px;
+}
+
+.Right-Content p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+     opacity: 0.5;
+     padding-bottom: 40px;
+}
+
+.Right-Content button{
+    width: 160px;
+    height: 48px;
+    background-color: #D87D4A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.Right-Content button a{
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 18px;
+}
+
+.Right-Content button:hover{
+    background-color: #FBAF85;
+}
+
+
+@media screen and (max-width: 1100px){
+    .ProductPageCards{
+        display: flex;
+        flex-direction: column;
+
+        padding-top: 0;
+        width: 95%;
+    }
+    .Card-Right{
+        text-align: center;
+        padding:0;
+        padding-top: 50px;
+    
+    }
+    .Right-Content{
+        margin: 0 50px;
+ 
+    }
+    .Right-Content h1{
+       margin: 0 150px 20px 150px;
+
+    }
+    .Right-Content p{
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 768px){
+  
+    .Right-Content{
+        margin: 0;
+    }
+    .Right-Content h1{
+        margin: 0;
+        padding-bottom: 24px;
+    }
+}

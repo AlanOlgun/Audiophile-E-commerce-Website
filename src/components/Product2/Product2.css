@@ -1,0 +1,97 @@
+.Product2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Product2Container{
+    max-width: 1100px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Product2Title h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1.14286px;
+    text-transform: uppercase;
+    padding-bottom: 64px;
+}
+
+
+.Product2CardContainer{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 240px;
+
+}
+
+.CardsImg img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.CardsLink{
+    text-align: center;
+}
+.CardsLink h3{
+    padding: 40px 0 32px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 1.71429px;
+    text-transform: uppercase;
+}
+
+.CardsLink button{
+    width: 160px;
+    height: 48px;
+    background-color: #D87D4A;
+    color: white;
+    border: none;
+ 
+     cursor: pointer;
+}
+.CardsLink button a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color : white;
+    text-decoration : none;
+}
+
+.CardsLink button:hover{
+    background-color: #FBAF85;
+}
+
+@media screen and (max-width: 1100px){
+    .Product2CardContainer{
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .Product2CardContainer{
+      flex-direction: column;
+    }
+    .CardsLink h3{
+        padding: 32px 0;
+    }
+    .CardsLink button{
+        margin-bottom: 56px;
+    }
+    .Product2CardContainer{
+        padding-bottom: 172px;
+    
+    }
+}

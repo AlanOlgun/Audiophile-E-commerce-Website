@@ -1,0 +1,329 @@
+.CheckOutPageCard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+.CheckOutPageCards{
+    width: 100%;
+    max-width: 1100px;
+}
+
+
+.CheckOutPageCards .GoBack{
+padding: 50px 10px 50px 0px;
+}
+.FormContainer{
+display: flex;
+gap: 30px;
+padding-bottom: 140px;
+}
+
+.FormContainer .RegisterForm{
+    flex: 2;
+    background-color: white;    
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.FormTitle h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1.14286px;
+    padding-bottom: 40px;
+
+
+}
+
+.RegisterForm .FormCard h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 0.928571px;
+    color: #D87D4A;
+    padding-bottom: 16px;
+}
+.RegisterForm .FormCard .FormInputs{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.RegisterForm .FormCard .FormInput {
+    width: 50%;
+    padding-right: 16px;
+    padding-bottom: 24px;
+   
+}
+.RegisterForm .FormCard .FormInputs .Name{
+    display: flex;
+    justify-content: space-between;
+}
+.RegisterForm .FormCard .FormInputs .Name h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.214286px;
+    padding-bottom: 9px;
+}
+.RegisterForm .FormCard .FormInputs .Name p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.214286px;
+    color: #CD2C2C;
+    /* display: none; */
+}
+.RegisterForm input{
+    width: 100%;
+    padding: 18px 0 18px 24px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  
+}
+
+.RegisterForm  :focus {
+    outline: none;
+  }
+
+
+.RegisterForm .Ship .FormInput:first-child{
+    width: 100%;
+}
+
+.FormContainer .SummaryForm{
+flex: 1;
+background-color: white;
+border-radius: 10px;
+padding: 32px;
+height: 100%;
+}
+
+.SummaryTitle{
+    padding-bottom: 32px;
+}
+
+.OrderDetail{
+    display: flex;
+    justify-content:space-between;
+}
+.OrdersImg img{
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+.OrdersDetail{
+    flex: 2;
+}
+.OrdersDetail .ProductsName{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+.OrdersDetail .ProductsPrice{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+     opacity: 0.5;
+}
+.OrderDetail .ProductsQuantity{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-top: 12px;
+}
+
+.Total, .Shipping, .Vat, .GrandTotal{
+    display: flex;
+    justify-content: space-between;
+}
+.Total h3, .Shipping h3, .Vat h3, .GrandTotal h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px; 
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5; display: flex;
+    padding-bottom: 9px;
+}
+
+.Total h2, .Shipping h2, .Vat h2, .GrandTotal h2{
+    font-style: normal;
+    font-weight: bold;
+   font-size: 18px;
+   line-height: 25px;
+   color: #000000;
+}
+.GrandTotal h2{
+    color: #D87D4A;
+}
+
+.SummaryForm button{
+    margin-top: 32px;
+    font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 1px;
+background-color: #D87D4A;
+color: #FFFFFF;
+cursor: pointer;
+border: none;
+width: 100%;
+height: 48px;
+}
+
+.SummaryForm button:hover{
+    background-color: #FBAF85;
+}
+
+/* 
+Modal Container */
+
+.ModalContainer{
+width: 100%;
+height: 100%;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items:flex-start;
+background-color: rgba(0, 0, 0, 0.39);
+/* display: none; */
+}
+
+.ModalCard{
+    background-color: white;
+    border-radius: 10px;
+    padding: 45px;
+    margin-top: 125px;
+}
+
+.ModalMessage1 h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1.15px;
+    color: #000000;
+    padding: 32px 0;
+}
+.ModalMessage2 p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-bottom: 32px;
+}
+.Ordered{
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+  
+
+}
+.Ordered .OrderDetail{
+    padding: 24px;
+    background-color: #F1F1F1;
+    display: flex; 
+}
+.Ordered .OrderDetail .ProductsQuantity {
+padding-top: 0;
+padding-left: 45px;
+}
+
+.Ordered .GrandTotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px 65px 42px 32px;
+    background-color: black;
+}
+.Ordered .GrandTotal h3{
+    color: white;
+    mix-blend-mode: normal;
+     opacity: 0.5;
+}
+
+.ModalContainer button{
+    width: 100%;
+    height: 48px;
+    margin-top: 45px;
+    background-color: #D87D4A;
+    border: none;
+    cursor: pointer;
+
+
+}
+.ModalContainer button:hover{
+    background-color: #FBAF85;
+}
+.ModalContainer button a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1100px){
+    
+    .CheckOutPageCard .GoBack{
+    margin-left: 40px;
+    padding: 36px 0 0 0; 
+    }
+    .FormContainer{
+        flex-direction: column;
+        margin: 40px;
+    }
+    .ModalContainer{
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .FormContainer{
+        margin: 25px;
+    }
+    .RegisterForm .FormCard .FormInput{
+width: 100%;
+padding-right: 0;
+    }
+    .FormContainer .RegisterForm{
+        padding: 20px;
+    }
+       
+}
+

@@ -1,0 +1,121 @@
+.Intro{
+    width: 100%;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    overflow: hidden;
+
+
+
+}
+.Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+
+    
+}
+.right{
+    max-width: 1440px;
+}
+.right img{
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+
+.left{
+    position: relative;
+    max-width: 1100px;
+    bottom: 160px;
+    left: 150px;
+ 
+ 
+}
+.Left-Desc{
+    position: absolute;
+    max-width: 400px;
+    
+    
+}
+.left h5{
+font-size: 16px;
+font-weight: 400;
+color: #fff;
+opacity: .5;
+line-height: 19px;
+letter-spacing: 8px;
+padding-bottom: 25px;
+}
+
+.left h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 2px;
+    color: #fff;
+    padding-bottom: 25px;
+
+}
+
+.left p{
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.75;
+padding-right: 50px;
+padding-bottom: 40px;
+}
+
+.left button{
+background-color: #D87D4A;
+border: none;
+width: 160px;
+height: 48px;
+
+cursor: pointer;
+}
+.left button a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration : none;
+}
+
+.left button:hover{
+background-color: #FBAF85;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+.left{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    bottom: 0px;
+    left:50%;
+    text-align: center;
+}
+.left p{
+    padding-left: 25px;
+    padding-right: 25px;}
+}
+@media screen and (max-width: 780px){
+    .left h1{
+        font-size: 46px;
+        
+    }
+}

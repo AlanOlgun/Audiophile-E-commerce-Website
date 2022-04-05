@@ -1,0 +1,33 @@
+.ProductIntro{
+    width: 100%;
+    height: 260px;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.ProductIntro .Products{
+    max-width: 1440px;
+
+}
+
+.ProductIntro .Products h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+   line-height: 44px;
+   text-align: center;
+   letter-spacing: 1.45px;
+   color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px){
+    .ProductIntro{
+        height: 103px;
+    }
+    .ProductIntro .Products h1{
+        font-size: 28px;
+    }
+}

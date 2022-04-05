@@ -1,0 +1,81 @@
+.Comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.Sect{
+    max-width: 1075px;
+    display: flex;
+    margin: 200px 0;
+}
+
+.Comments{
+    padding-top: 147px;
+    padding-right: 132px;
+}
+.Paragraph h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 32px;
+  
+}
+.Paragraph h1 span{
+    color: #D87D4A;
+}
+.Paragraph p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.GearImg img{
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1100px){
+    .Sect{
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 96px;
+    }
+    .GearImg img{
+        width: 100%;
+        order: 1;
+    }
+    .Comments{
+        display: flex;
+        order: 2;
+        padding: 63px 70px 0px 70px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .Comments{
+        display: flex;
+        order: 2;
+        padding: 63px 10px 20px 10px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .Paragraph h1{
+        font-size: 28px;
+    }
+
+}
