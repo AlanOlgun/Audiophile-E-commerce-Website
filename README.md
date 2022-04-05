@@ -30,7 +30,7 @@ Implemented React Router, React Dom, Modal, Hook, Filter libraries, and a local 
 
 ### Links
 
-- Live Site URL: [live site URL here](https://alanolgun.github.io/fylo-landing-page/)
+- Live Site URL: [live site URL here](https://audiophile-e-commerce-website.pages.dev/)
 
 
 
